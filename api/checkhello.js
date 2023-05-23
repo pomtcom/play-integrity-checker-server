@@ -4,5 +4,5 @@ module.exports = async (req, res) => {
     const { token = 'none' } = req.query
     console.log(token)
 
-    res.status(200).send({ 'error': 'Google API error.\n' + e.message })
+    res.status(200).send('hello world by tawatchai')
 }
